@@ -7,13 +7,19 @@
 <meta name="description" content="Joal Ciclo: bicicletaria com mais de 40 anos em Taboão da Serra. Bikes adulto e infantil, peças, acessórios e oficina completa: revisão, freios, marchas, rodas e pneus. Peça seu orçamento pelo WhatsApp.">
 <meta property="og:title" content="Joal Ciclo Bicicletaria">
 <meta property="og:description" content="Mais de 40 anos vendendo e consertando bicicletas em Taboão da Serra.">
-<meta property="og:image" content="img/loja-1.jpg">
+<link rel="canonical" href="https://joalciclo.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://joalciclo.com.br/">
+<meta property="og:image" content="https://joalciclo.com.br/img/loja-1.jpg">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="img/icon-512.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#141516">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BicycleStore","name":"Joal Ciclo Bicicletaria","telephone":"+55-11-93952-5352","address":{"@type":"PostalAddress","streetAddress":"Estr. Kizaemon Takeuti, 2549 - Parque São Joaquim","addressLocality":"Taboão da Serra","addressRegion":"SP","postalCode":"06775-003","addressCountry":"BR"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.3","reviewCount":"338"},"sameAs":["https://www.instagram.com/joalciclo/"]}
+{"@context":"https://schema.org","@type":"BicycleStore","name":"Joal Ciclo Bicicletaria","url":"https://joalciclo.com.br/","logo":"https://joalciclo.com.br/img/icon-512.png","image":"https://joalciclo.com.br/img/loja-1.jpg","telephone":"+55-11-93952-5352","address":{"@type":"PostalAddress","streetAddress":"Estr. Kizaemon Takeuti, 2549 - Parque São Joaquim","addressLocality":"Taboão da Serra","addressRegion":"SP","postalCode":"06775-003","addressCountry":"BR"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.3","reviewCount":"338"},"sameAs":["https://www.instagram.com/joalciclo/"]}
 </script>
 <style>
   :root{
@@ -63,10 +69,9 @@
   header{position:sticky;top:0;z-index:50;background:rgba(20,21,22,.94);backdrop-filter:blur(10px);color:var(--papel);border-bottom:1px solid rgba(255,255,255,.06)}
   .nav{display:flex;align-items:center;justify-content:space-between;height:76px}
   .logo{display:flex;align-items:center;gap:12px}
-  .logo svg{width:46px;height:46px;color:var(--laranja)}
-  .logo b{font-family:'Barlow Condensed';font-weight:800;font-size:1.7rem;letter-spacing:.04em;display:block;line-height:.9;text-transform:uppercase}
-  .logo b i{font-style:normal;color:var(--laranja)}
-  .logo small{font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;color:#9CA0A5}
+  .logo img{height:62px;width:auto}
+  .logo small{font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;color:#9CA0A5;line-height:1.5;border-left:1px solid var(--asfalto-3);padding-left:12px}
+  footer .logo img{height:84px}
   .menu{display:flex;gap:32px;align-items:center;font-weight:500;font-size:.98rem}
   .menu a:not(.btn):hover{color:var(--laranja)}
   .menu .btn{padding:11px 20px;font-size:1rem}
@@ -221,7 +226,6 @@
   /* Rodapé */
   footer{background:var(--asfalto);color:#9CA0A5;padding:64px 0 30px;font-size:.95rem;border-top:4px solid var(--laranja)}
   .rod-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
-  footer .logo b{color:var(--papel)}
   footer h4{color:var(--papel);font-family:'Barlow Condensed';font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:1rem;margin-bottom:16px}
   footer li{list-style:none;margin-bottom:8px}
   footer a:hover{color:var(--laranja)}
@@ -303,8 +307,8 @@
 <header id="topo">
   <div class="container nav">
     <a href="#" class="logo" aria-label="Joal Ciclo - início">
-      <svg><use href="#i-bike"/></svg>
-      <span><b>Joal <i>Ciclo</i></b><small>Bicicletaria · 40+ anos</small></span>
+      <img src="img/logo-joal-ciclo.png" alt="Joal Ciclo" width="107" height="62">
+      <small>Bicicletaria<br>40+ anos</small>
     </a>
     <nav class="menu" id="menu">
       <a href="#loja">Loja</a>
@@ -557,7 +561,7 @@
 <footer>
   <div class="container rod-grid">
     <div>
-      <a href="#" class="logo"><svg><use href="#i-bike"/></svg><span><b>Joal <i>Ciclo</i></b><small>Bicicletaria · 40+ anos</small></span></a>
+      <a href="#" class="logo" aria-label="Joal Ciclo - início"><img src="img/logo-joal-ciclo.png" alt="Joal Ciclo" width="145" height="84" loading="lazy"></a>
       <p style="margin-top:18px;max-width:340px">Mais de 40 anos vendendo e consertando bicicletas em Taboão da Serra.</p>
     </div>
     <div>
